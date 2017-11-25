@@ -8,4 +8,4 @@ docker pull mybb/mybb:latest
 ```
 Alternatively, for those who would like to view the source, make ammendments or just generally prefer to build their own images - you can view the official GitHub repository [here](https://github.com/mybb/docker-compose/). Ample instructions for use are provided within the [README.md](https://github.com/mybb/docker-compose/blob/master/README.md) file. This project is far from complete and we do not recommend it for production use, only for development and staging systems. MyBB's current installation and upgrade systems make full automation with Docker a difficult feat to acomplish but we're hoping to include easier ways to do this in the future 1.10 series of releases.
 
-We hope that avid plugin and theme developers make good use of the Docker images that we'll be releasing and improving upon, any and all contructive feedback (and pull requests!) is welcome.
+We hope that avid plugin and theme developers make good use of the Docker images that we'll be releasing and improving upon, any and all constructive feedback (and pull requests!) is welcome.
