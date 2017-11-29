@@ -9,4 +9,4 @@ PHP 5.2 has served us well but has not received any performance or security upda
 
 In the interest of ensuring MyBB remains up to date with current best practices and to leverage the new features and optimisations generally found in new versions of PHP, we propose that the minimum PHP version requirement be increased from PHP 5.2 to either 5.6 (which has just over a year until it reaches EOL on 31st December, 2018) or 7.0 (which has around two years).
 
-MyBB 1.10 development is underway (some PRs have entered the review stage and suggestions are being taken in the [1.10 Suggestions and Feedback](https://community.mybb.com/forum-199.html) forum). We arere really keen to gather as much feedback as possible and to learn from our userbase what their concerns might be when met by a change as substantial as this.
+MyBB 1.10 development is underway (some PRs have entered the review stage and suggestions are being taken in the [1.10 Suggestions and Feedback](https://community.mybb.com/forum-199.html) forum). We are really keen to gather as much feedback as possible and to learn from our userbase what their concerns might be when met by a change as substantial as this.
