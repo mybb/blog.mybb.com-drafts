@@ -9,4 +9,4 @@ This new forum has a set of thread prefixes to specify versions that a suggesito
 
 This restructuring is still currently a work in progress, and as such the old [1.8 Suggestions and Feedback](https://community.mybb.com/forum-158.html) forum still exists, though new threads cannot be created there. The same goes for the [2.0 Suggestions and Feedback forum](https://community.mybb.com/forum-152.html).
 
-As ever, we welcome any feedback on this new structure and are always lookin for ways to improve visibility into the direction that we are heading. We hope that by restructuring in these kinds of way the future of development should become more clear.
+As ever, we welcome any feedback on this new structure and are always looking for ways to improve visibility into the direction that MyBB is heading. We hope that by restructuring in these kinds of way the future of development should become more clear.
