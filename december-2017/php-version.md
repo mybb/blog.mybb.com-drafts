@@ -12,4 +12,4 @@ In the interest of ensuring MyBB remains up to date with current best practices 
 
 MyBB 1.10 development is underway (some PRs have entered the review stage and suggestions are being taken in the [1.10 Suggestions and Feedback](https://community.mybb.com/forum-199.html) forum). We are really keen to gather as much feedback as possible and to learn from our userbase what their concerns might be when met by a change as substantial as this.
 
-The 1.8 branch, while carrying structural concepts of over 12 years (which have passed recently [since MyBB 1.0.0](https://mybb.com/versions/)), is expected to remain compatible with PHP 5.2 as well as with more recent versions to prevent problems resulting from raised requirements in minor releases as the work on modern branches continues.
+The MyBB 1.x series has continued to use the same structural concepts from MyBB 1.0 [for over 12 years](https://mybb.com/versions/). While MyBB 1.10 will be based on features from more recent versions of PHP, MyBB 1.8 will remain compatible with PHP 5.2. Additional compatibility fixes for recent versions will also be included where possible.
