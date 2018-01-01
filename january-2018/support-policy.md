@@ -2,7 +2,7 @@
 
 Following a [recent discussion](https://community.mybb.com/thread-214047.html) on the MyBB Community Forums regarding the [Support Eligibility Policy](https://mybb.com/support/eligibility-policy/), we have decided to make some changes to how we determine if we provide support to users.
 
-The previous Support Eligibility Policy was unclear in many circumstances. There were many edge cases and grey areas where it was unclear why a user may be denied official support. The new changes has vastly simplified the policy and official support will only be denied to users in the following cases:
+The previous Support Eligibility Policy was unclear in many circumstances. There were many edge cases and grey areas where it was unclear why a user may be denied official support. The new changes vastly simplify the policy and official support will only be denied to users in the following cases:
 * When they operate a website containing activity or content which is broadly illegal or unethical, including, but not limited to, the following:
   * unlawful distribution or redistribution of intellectual property or copyright content; or
   * propagating hateful content directed at specific groups or individuals; or
