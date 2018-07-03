@@ -18,7 +18,7 @@ With the template conversion now having been all but completed, Justin has began
 
 ## JavaScript changes and improvements
 
-As we're overhauling templates, we've decided that we should take a look at improving the JavaScript situation in MyBB. We want to reach a point where there is no JS code embedded within any core templates or core PHP code. [Eric made a start](https://github.com/mybb/mybb/commit/be8b1e68ad92316527150f88692e05258ebfe091) to this process by rethinking how the code fo collapsing forums and other elements works, and we're currently [tracking the issue here](https://github.com/mybb/mybb/issues/3282).
+As we're overhauling templates, we've decided that we should take a look at improving the JavaScript situation in MyBB. We want to reach a point where there is no JS code embedded within any core templates or core PHP code. [Eric made a start](https://github.com/mybb/mybb/commit/be8b1e68ad92316527150f88692e05258ebfe091) to this process by rethinking how the code for collapsing forums and other elements works, and we're currently [tracking the issue here](https://github.com/mybb/mybb/issues/3282).
 
 ## Integrating SwiftMailer in place of the old mail handler code
 
@@ -40,4 +40,22 @@ Originally we planned a more major overhaul of the mail system in order to add t
 
 ## Theme system changes
 
-*TODO*
+Though the hard work of converting templates to Twig and crafting a brand new theme has been all but completed, there are a few necessary backend changes required to the theme system to support these new features. These include:
+
+- Updating the ACP template editor to edit Twig files rather than the old templates in the database. As part of this update, we will evaluate the current syntax highlighting editor that we use to ensure it's the most recent version and that it supports syntax highlighting for Twig files.
+- Updating theme and template related functions such as `find_replace_templatesets()` (commonly used by plugin authors to add and modify code inside templates) to work on the new Twig templates rather than the old templates in the database.
+- Store CSS as files rather than in the database, to make editing CSS through a standard editor of your choice easier, and allow editing of CSS via SSH sessions and over FTP.
+
+We have some more changes we'd like to make to the theme system, and we're currently working on drafting another blog post with these changes. Some of the bigger changes might end up getting postponed to later feature releases such as MyBB 1.10, depending upon time and demand. In an ideal world, we'd implement all theme related changes in 1.9.0 to prevent breaking the theme system multiple times across separate releases.
+
+## Editor change to TinyMCE
+
+MyBB 1.8 currently uses the [SCEditor WYSIWYG text editor](https://www.sceditor.com) for writing posts and other content. However, there have been many issues reported since the initial 1.8 release about problems with this editor choice. One of the problems we've heard most often is related to the performance on mobile devices. As the major standout feature of MyBB 1.9 is better mobile compatibility by way of a new responsive theme, it makes sense to evaluate alternative text editors to replace SCEditor.
+
+After evaluating a number of different options, we've decided to adopt [TinyMCE](https://www.tinymce.com) as our text editor going forwards. TinyMCE is a common tool used by many other projects such as EverNote, WordPress, ZenDesk and more. It also has a large range of features and plugins to provide support for functionality such as tables. During our testing, it performed well on a range of different mobile devices.
+
+Work hasn't started yet on this integration, though we're not expecting it to be an overly difficult task to change the existing [`codebuttons` template](https://github.com/mybb/mybb/blob/develop/1.9/inc/views/base/misc/codebuttons.twig) to integrate the new editor.
+
+## Other changes/features
+
+*TODO: other issues with the 1.9.0 milestone - some may be moved to 1.10 based upon review*
