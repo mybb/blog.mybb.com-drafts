@@ -1,4 +1,4 @@
-# Looking To The Future
+# Looking to the Future
 As we near the release of MyBB 1.8.27, we’re starting to look towards the future of the Project and where we’re headed. In this post, we’ll lay out our plans going forward.
 
 ## 1.8.27 Is a Big Release
