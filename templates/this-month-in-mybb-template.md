@@ -31,7 +31,6 @@ The following issues/PRs have either attracted the most interest and discussion,
 * Pull request #{{integer}}, [{{PR title}}]({{hyperlink to GitHub PR}}), of note due to {{brief summary of the focus of interest/discussion}}.
 * {{...etc...}}
 
-
 ## Core development in detail
 
 ### New/closed issues and PRs; merged PRs
