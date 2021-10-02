@@ -1,4 +1,4 @@
-### Minimum Supported PHP Version for Upcoming MyBB Releases
+# Minimum Supported PHP Version for Upcoming MyBB Releases
 
 When MyBB 1.8 was released in September 2014, it required a PHP version 5.2 or greater while the previous series, MyBB 1.6 (originally released 3rd August, 2010), required PHP 5.1 or greater. To put that into perspective, PHP 5.2 was released on 2nd November, 2006 and on 6th January, 2011 was declared end of life (End Of Life: meaning it will not receive any updates nor security fixes). So before MyBB 1.8 was even released, it was supporting PHP versions that had long since been marked end of life by the PHP Group.
 
